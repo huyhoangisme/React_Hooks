@@ -1,17 +1,13 @@
-
-import './App.css';
-
-function App() {
+import "./App.css";
+import Nav from "./Nav";
+import HomePage from './HomePage'
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>Hello world</p>
-      </header>
+      <Nav />
+      <HomePage />
     </div>
   );
-}
+};
 
 export default App;

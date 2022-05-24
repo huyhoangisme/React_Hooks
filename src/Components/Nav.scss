@@ -1,0 +1,14 @@
+.nav {
+    height:40px;
+    background-color: antiquewhite;
+    .nav-child{
+        line-height:40px;
+        list-style: none;
+        padding: 12px 18px;
+        text-decoration: none;
+        color: #000000;
+        &:hover {
+            background-color:#04AA6D;
+        }
+    }
+}
